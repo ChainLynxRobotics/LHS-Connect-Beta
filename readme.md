@@ -1,0 +1,15 @@
+# The LHS Connect Rewrite - 2026 Edition
+
+###### Please add as we find mor
+
+Yeah, it seems like we do this every couple years, but we're hoping this one could be different
+
+### The mission:
+
+#### Making LHS Connect more accessible for the average student
+
+Creating an acutal place where people can see what's going on at school, instead of a more well designed version of the SPS page.
+
+#### Making LHS Connect more manageable on the daily.
+
+#### Rewriting LHS Connect to make sense
