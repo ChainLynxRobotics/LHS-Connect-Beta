@@ -1,6 +1,6 @@
 # The LHS Connect Rewrite - 2026 Edition
 
-###### Please add as we find mor
+###### Please add as we find more important goals
 
 Yeah, it seems like we do this every couple years, but we're hoping this one could be different
 
