@@ -1,0 +1,13 @@
+Elliott Weston Ball|||https://github.com/foxstronaut|||Fix comment syntax for horizontal scroll container in index.html|||index.html|||https://github.com/LHS-Connect/Lynk-In/commit/8710b0b
+Elliott Weston Ball|||https://github.com/foxstronaut|||Add horizontal scroll fix and restructure CSS files|||css/base.css, css/components.css, css/layout.css (+5 more)|||https://github.com/LHS-Connect/Lynk-In/commit/87f0c51
+Elliott Weston Ball|||https://github.com/foxstronaut|||wow, the power of some css, who needs tailwind|||index.html, style.css|||https://github.com/LHS-Connect/Lynk-In/commit/55c3fac
+Elliott Weston Ball|||https://github.com/foxstronaut|||ts pmo|||index.html, style.css|||https://github.com/LHS-Connect/Lynk-In/commit/8391a7b
+Elliott Weston Ball|||https://github.com/foxstronaut|||agh why is git such a pain in the ass|||index.html|||https://github.com/LHS-Connect/Lynk-In/commit/c899fd9
+Elliott Weston Ball|||https://github.com/foxstronaut|||wow, its not called lynk in anymore|||index.html|||https://github.com/LHS-Connect/Lynk-In/commit/ab017f6
+Me here|||https://github.com/hexagonally-mired|||finished a sentence|||readme.md|||https://github.com/LHS-Connect/Lynk-In/commit/a95871f
+Mihir Pillay|||https://github.com/hexagonally-mired|||added readme|||readme.md|||https://github.com/LHS-Connect/Lynk-In/commit/d264f92
+Mihir Pillay|||https://github.com/hexagonally-mired|||testing how to put with GUI|||uwu|||https://github.com/LHS-Connect/Lynk-In/commit/416829d
+Mihir Pillay|||https://github.com/hexagonally-mired|||eeee|||uwu|||https://github.com/LHS-Connect/Lynk-In/commit/c9efff0
+Me here|||https://github.com/hexagonally-mired|||Change title from 'LHS Connect' to 'Lynk-In'|||index.html|||https://github.com/LHS-Connect/Lynk-In/commit/9354f5c
+Elliott Weston Ball|||https://github.com/foxstronaut|||WOW COMMIT_MESSAGE 2|||index.html|||https://github.com/LHS-Connect/Lynk-In/commit/d867d57
+Elliott Weston Ball|||https://github.com/foxstronaut|||First Commit, Created the Initial 3 files, lets do this shit|||index.html, script.js, style.css|||https://github.com/LHS-Connect/Lynk-In/commit/39aa2fb
