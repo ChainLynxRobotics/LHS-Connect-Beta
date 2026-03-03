@@ -5,6 +5,11 @@
   border-radius: 12px;
   padding: 1.5rem;
   transition: transform 0.2s ease;
+  
+  /* These lines allow the card to adjust ratio based on space */
+  flex: 1 1 300px;
+  display: flex;
+  flex-direction: column;
 }
 
 .card:hover {
