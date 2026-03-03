@@ -8,7 +8,7 @@ Yeah, it seems like we do this every couple years, but we're hoping this one cou
 
 #### Making LHS Connect more accessible for the average student
 
-Creating an acutal place where people can see what's going on at school, instead of a more well designed version of the SPS page.
+Creating an actual place where people can see what's going on at school, instead of a more well designed version of the SPS page.
 
 #### Making LHS Connect more manageable on the daily.
 
@@ -18,41 +18,14 @@ Creating an acutal place where people can see what's going on at school, instead
 
 ## Setup & Development
 
-This project uses [Node.js](https://nodejs.org/) only to manage a Git hook via [husky](https://typicode.github.io/husky/). All Node-related files (`package.json`, etc.) live in the repository root (`Lynk-In`).
+I could not for the life of me figure out node JS and npm. so it's like that but with python.
 
-> **Note:** husky currently prints a **"install command is DEPRECATED"** warning when you run
-> `npm run prepare`. This message comes from the package itself and does not indicate
-> a problem with your setup – you can safely ignore it. Husky will still install hooks correctly.
+### DO NOT USE GIT COMMIT
+use the python script instead.
+if you look on the website you will see a git log, this script auto updates that log during the commit process.
 
-### Installation
+just run it as
 
-```bash
-# install node dependencies (husky and dev-server)
-npm install
+python3 commit.py
 
-# set up husky hooks (runs automatically thanks to "prepare" script)
-npm run prepare
-```
-
-### Development server
-
-Some JavaScript features (such as module imports or filesystem access) require a server context.  Run the built-in development server during development:
-
-```bash
-npm run dev
-```
-
-The command launches `http-server` serving the project folder at `http://localhost:8080` (cache disabled with `-c-1`).
-
-A `pre-commit` hook has been configured to keep a `git-log.txt` file up to date; it rewrites the log every time you commit.
-
-### Running
-
-There is no build step – just open `index.html` in a browser. The only remaining script is `horiz-scroll-fix.js`, which enables vertical wheel motion on horizontal scrollers.
-
-```bash
-# open in default browser (Linux example)
-xdg-open index.html
-```
-
-Feel free to extend these instructions as the project grows.
+(linux users can make commit.sh executable and then use that as a shortcut if they prefer)
