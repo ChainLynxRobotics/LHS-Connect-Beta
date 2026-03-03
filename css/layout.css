@@ -5,38 +5,19 @@
 .dashboard-grid {
   display: flex;
   flex-direction: column;
-  gap: 2rem;.main-header {
-  text-align: center;
-}
-
-.dashboard-grid {
-  display: flex;
-  flex-direction: column;
   gap: 2rem;
-  max-width: 1200px;
+  /* Use full width of the viewport */
+  width: 95%;
+  max-width: none; 
   margin: 0 auto;
 }
 
-.panel-group {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 1.5rem;
-}
-
-@media (max-width: 768px) {
-  .panel-group {
-    grid-template-columns: 1fr;
-  }
-}
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
-/* Changed from grid to flex to allow content-based ratios */
 .panel-group {
   display: flex;
   flex-wrap: wrap;
   gap: 1.5rem;
+  width: 100%;
+  justify-content: flex-start; 
 }
 
 @media (max-width: 768px) {
