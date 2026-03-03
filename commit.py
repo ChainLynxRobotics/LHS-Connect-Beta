@@ -18,7 +18,8 @@ def update_log():
     remote_base = get_remote_url()
 
     user_map = {}
-    json_path = os.path.join(os.path.dirname(__file__), "users.json")
+    git_logger_dir = os.path.join(os.path.dirname(__file__), "git logger")
+    json_path = os.path.join(git_logger_dir, "users.json")
     if os.path.exists(json_path):
         with open(json_path, "r") as f:
             user_map = json.load(f)
@@ -50,7 +51,7 @@ def update_log():
             commit_link = f"{remote_base}/commit/{short_hash}"
             formatted_lines.append(f"{author}|||{profile_link}|||{message}|||{file_str}|||{commit_link}")
 
-        output_path = os.path.join(os.path.dirname(__file__), "git-log-box.txt")
+        output_path = os.path.join(git_logger_dir, "git-log-box.txt")
         with open(output_path, "w", encoding="utf-8") as f:
             f.write("\n".join(formatted_lines))
 
