@@ -6,19 +6,32 @@
   padding: 1.5rem;
   transition: transform 0.2s ease;
   
-  /* Start at the content's natural width, then split remaining space 50/50 */
+  /* Start at smallest content width, then grow 50/50 */
   flex: 1 1 auto;
   width: max-content; 
   min-width: min-content;
-  
   display: flex;
   flex-direction: column;
+}
+
+/* Forced width: (3 items * 200px) + (2 gaps * 16px) + (card padding * 2) */
+.card.scroll-limit {
+  flex: 0 0 auto; /* Don't grow, stay at 3-item width */
+  width: calc(600px + 2rem + 3rem); 
 }
 
 .card:hover {
   background: var(--bg-card-hover);
 }
 
+.heading {
+  background: none !important;
+  border: none !important;
+  padding: 0 0 1rem 0 !important;
+  position: static !important; /* Not sticky */
+}
+
+/* --- Content Layouts --- */
 .card.horizontal .card-content {
   display: flex;
   gap: 1rem;
@@ -46,35 +59,21 @@
 .scroll-h {
   display: flex;
   overflow-x: auto;
-  gap: 0.8rem;
+  gap: 1rem;
   padding-bottom: 1rem;
-  width: min-content; 
-  min-width: 100%;
-}
-
-/* REMOVED BOX STYLES FROM TITLES HERE */
-.sticky-header {
-  position: sticky;
-  top: -1.5rem;
-  padding: 0.5rem 0; /* Reduced padding */
-  margin-bottom: 1rem;
-  z-index: 5;
-  background: none; /* Removed background box */
-  border: none;     /* Ensured no border */
+  width: 100%;
 }
 
 .scroll-item {
-  /* Takes exactly the width it needs */
-  flex: 0 0 auto; 
-  width: max-content;
-  min-width: 100px;
+  flex: 0 0 200px; /* Fixed width to ensure "3 items" logic works */
   background: rgba(255, 255, 255, 0.03);
-  padding: 0.8rem 1rem;
+  padding: 1rem;
   border-radius: 8px;
   text-align: center;
+  box-sizing: border-box;
 }
 
 .scroll-v .scroll-item {
   flex: 0 0 auto;
-  width: auto;
+  width: 100%;
 }
