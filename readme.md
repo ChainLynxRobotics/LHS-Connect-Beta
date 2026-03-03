@@ -20,6 +20,10 @@ Creating an acutal place where people can see what's going on at school, instead
 
 This project uses [Node.js](https://nodejs.org/) only to manage a Git hook via [husky](https://typicode.github.io/husky/). All Node-related files (`package.json`, etc.) live in the repository root (`Lynk-In`).
 
+> **Note:** husky currently prints a **"install command is DEPRECATED"** warning when you run
+> `npm run prepare`. This message comes from the package itself and does not indicate
+> a problem with your setup – you can safely ignore it. Husky will still install hooks correctly.
+
 ### Installation
 
 ```bash
