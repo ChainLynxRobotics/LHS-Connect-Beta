@@ -1,5 +1,7 @@
 {
-    "Elliott Weston Ball": { "username": "foxstronaut", "color": "#3498db" },
-    "Mihir Pillay": { "username": "hexagonally-mired", "color": "#e74c3c" },
-    "Me here": { "username": "hexagonally-mired", "color": "#e74c3c" }
+    "Elliott Weston Ball": { "username": "foxstronaut", "color": "#9B649B" },
+    "Mihir Pillay": { "username": "hexagonally-mired", "color": "#9B7F64" },
+    "Me here": { "username": "hexagonally-mired", "color": "#9B7F64" }
+    "User 3": { "username": "user3", "color": "#649B64" },
+    "User 4": { "username": "user4", "color": "#647F9B" },
 }

@@ -43,7 +43,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 p.innerHTML = `
                     <a href="${cleanProfileUrl}" target="_blank" style="color: ${userColor}; font-weight: bold; text-decoration: none;">${author}</a> | 
                     ${message} --- <span style="opacity: 0.7; font-size: 0.9em;">${files}</span> | 
-                    <a href="${commitUrl}" target="_blank" style="color: #3498db; font-weight: bold; text-decoration: none;">#${hash}</a>
+                    <a href="${commitUrl}" target="_blank" style="color: #0FBF3E; font-weight: bold; text-decoration: none;">#${hash}</a>
                 `;
                 
                 scrollItem.appendChild(p);
