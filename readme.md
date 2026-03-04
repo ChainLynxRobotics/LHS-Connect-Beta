@@ -28,4 +28,4 @@ just run it as
 
 python3 commit.py
 
-(linux users can make commit.sh executable and then use that as a shortcut if they prefer)
+(linux/mac users can make commit.sh executable and then use that as a shortcut if they prefer)
