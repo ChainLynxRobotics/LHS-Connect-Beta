@@ -12,7 +12,7 @@ def get_remote_url():
         url = re.sub(r"\.git$", "", url)
         return url
     except:
-        return "https://github.com/LHS-Connect/Lynk-In"
+        return "https://github.com/ChainLynxRobotics/LHS-Connect-Beta"  # Default fallback URL
 
 def update_log():
     remote_base = get_remote_url()
