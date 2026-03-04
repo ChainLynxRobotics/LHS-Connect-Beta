@@ -1,9 +1,10 @@
-⋆ℯ𝓁⋆|||https://github.com/⋆ℯ𝓁⋆|||Create auto-log.yml|||.github/workflows/auto-log.yml|||https://github.com/ChainLynxRobotics/LHS-Connect-Beta/commit/42ad25f
+⋆ℯ𝓁⋆|||https://github.com/foxstronaut|||Update users.json|||git logger/users.json|||https://github.com/ChainLynxRobotics/LHS-Connect-Beta/commit/f53661b
+⋆ℯ𝓁⋆|||https://github.com/foxstronaut|||Create auto-log.yml|||.github/workflows/auto-log.yml|||https://github.com/ChainLynxRobotics/LHS-Connect-Beta/commit/42ad25f
 Elliott Weston Ball|||https://github.com/foxstronaut|||guthib no goot|||.github/workflows/auto-log.yml|||https://github.com/ChainLynxRobotics/LHS-Connect-Beta/commit/1313e5e
 Elliott Weston Ball|||https://github.com/foxstronaut|||Merge branch 'main' of https://github.com/ChainLynxRobotics/LHS-Connect-Beta|||⋆ℯ𝓁⋆|||Add files via upload|||0041732, commit.py, git-log-box.txt (+3 more)|||https://github.com/ChainLynxRobotics/LHS-Connect-Beta/commit/55a0d3b
 Elliott Weston Ball|||https://github.com/foxstronaut|||updating to use gh actions instead of manual commits|||.github/workflows/auto-log.yml, commit.py, commit.sh (+2 more)|||https://github.com/ChainLynxRobotics/LHS-Connect-Beta/commit/abbc596
 Elliott Weston Ball|||https://github.com/foxstronaut|||Changed :: update git log to new url | Reason :: it was linking to the old repo|||git logger/git-log-box.txt, server.sh|||https://github.com/ChainLynxRobotics/LHS-Connect-Beta/commit/844dd36
-⋆ℯ𝓁⋆|||https://github.com/⋆ℯ𝓁⋆|||Update readme.md|||readme.md|||https://github.com/ChainLynxRobotics/LHS-Connect-Beta/commit/ddec684
+⋆ℯ𝓁⋆|||https://github.com/foxstronaut|||Update readme.md|||readme.md|||https://github.com/ChainLynxRobotics/LHS-Connect-Beta/commit/ddec684
 Elliott Weston Ball|||https://github.com/foxstronaut|||Changed :: fixing git log error | Reason :: its broken|||git logger/git-log-box.txt|||https://github.com/ChainLynxRobotics/LHS-Connect-Beta/commit/5121c01
 Elliott Weston Ball|||https://github.com/foxstronaut|||Changed :: updated commit.py default url | Reason :: moved repos|||commit.py, git logger/git-log-box.txt|||https://github.com/ChainLynxRobotics/LHS-Connect-Beta/commit/1b3a16c
 Elliott Weston Ball|||https://github.com/foxstronaut|||Changed :: commit.sh comments | Reason :: dont want to leave out mac users :)|||commit.sh, git logger/git-log-box.txt|||https://github.com/ChainLynxRobotics/LHS-Connect-Beta/commit/3fec228
