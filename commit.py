@@ -63,21 +63,27 @@ def update_log():
         return None
 
 def make_commit():
-    print("\n📝  Enter your commit message:")
-    message = input("  > ").strip()
+    print("\n📝  Prepare your commit message:")
+    
+    # Prompting for specific details
+    change = input("What is being updated? :: ").strip()
+    reason = input("Why is it being updated? :: ").strip()
 
-    if not message:
-        print("❌  Commit message cannot be empty.")
+    if not change or not reason:
+        print("❌  Both fields are required for the commit message.")
         return
+
+    # Formatting the message
+    full_message = f"Changed :: {change} | Reason :: {reason}"
 
     try:
         # Stage all files
         subprocess.check_call(["git", "add", "-A"])
         print("✅  Staged all files.")
 
-        # Make the commit
-        subprocess.check_call(["git", "commit", "-m", message])
-        print("✅  Commit made.")
+        # Make the commit with the formatted message
+        subprocess.check_call(["git", "commit", "-m", full_message])
+        print(f"✅  Commit made: {full_message}")
 
         # Rewrite the log now that the commit exists in history
         log_path = update_log()
