@@ -13,9 +13,3 @@ Creating an actual place where people can see what's going on at school, instead
 #### Making LHS Connect more manageable on the daily.
 
 #### Rewriting LHS Connect to make sense
-
----
-
-## Setup & Development
-
-I could not for the life of me figure out node JS and npm. so it's like that but with python.
