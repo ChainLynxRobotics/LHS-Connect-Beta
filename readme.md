@@ -2,7 +2,7 @@
 
 ###### Please add as we find more important goals
 
-Yeah, it seems like we do this every couple years, but we're hoping this one could be different
+Yeah, it seems like we do this every couple years, but we're hoping this one could be different.
 
 ### The mission:
 
