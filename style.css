@@ -1,9 +1,0 @@
-/* 1. Base styles and variables first */
-@import url('css/base.css');
-
-/* 2. Typography and Layout next */
-@import url('css/typography.css');
-@import url('css/layout.css');
-
-/* 3. Specific components last to allow overrides */
-@import url('css/components.css');
