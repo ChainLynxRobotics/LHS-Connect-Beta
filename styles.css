@@ -1,0 +1,10 @@
+body {
+    color: white;
+    background-color: black;
+    display:grid;
+    place-items: center;
+    height: 100vh;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    border: double dodgerblue 3px;
+}
