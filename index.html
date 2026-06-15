@@ -3,12 +3,22 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <script src="/script.js"></script>
-        <link rel="stylesheet" href="/styles.css">
+        <script src="script.js"></script>
+        <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-        <h1 class="text-3xl font-bold underline">
-            Hello world!
-        </h1>
+        <div id="app">
+            <header>
+                <h1 id="page-title">LHS Connect Beta</h1>
+                <div id="current-date"></div>
+                <div id="current-time"></div>
+            </header>
+            <main>
+                <div id="schedule-display">
+                    <h2>Today's Schedule</h2>
+                    <ul id="schedule-list"></ul>
+                </div>
+            </main>
+        </div>
     </body>
 </html>
