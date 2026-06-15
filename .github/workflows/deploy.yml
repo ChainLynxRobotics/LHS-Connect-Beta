@@ -3,11 +3,11 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches:
-      - main  # Change this if your default branch is named master
+      - main  # Change this to master if your default branch is named master
 
 permissions:
   contents: read
-  pages: write
+  pages: write      # Grants permission to force-enable Pages via code
   id-token: write
 
 concurrency:
@@ -26,11 +26,13 @@ jobs:
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
+        with:
+          enablement: true  # Forces GitHub to initialize the Pages resource
 
       - name: Upload Artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: '.' # Serves files from the root directory
+          path: '.' # Serves files from your root folder. Change to './dist' or './build' if using a framework.
 
       - name: Deploy to GitHub Pages
         id: deployment
